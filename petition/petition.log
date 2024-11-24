@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.10.3)  24 NOV 2024 16:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.10.3)  24 NOV 2024 16:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**main.tex
-(./main.tex
+**petition.tex
+(./petition.tex
 LaTeX2e <2022-06-01> patch level 5
 L3 programming layer <2022-09-28>
 (c:/Program Files/texlive/2022/texmf-dist/tex/latex/latex-lab/documentmetadata-
@@ -1056,8 +1056,8 @@ Package: balance 1999/02/23 4.3 (PWD)
 \oldvsize=\dimen279
 )
 Excluding comment 'screenonly' Include comment 'printonly'
-Include comment 'anonsuppress' (./main.aux)
-\openout1 = `main.aux'.
+Include comment 'anonsuppress' (./petition.aux)
+\openout1 = `petition.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/nxlmi/m/it on input line 38.
 LaTeX Font Info:    Trying to load font information for OML+nxlmi on input line
@@ -1293,10 +1293,8 @@ File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 (c:/Program Files/texlive/2022/texmf-dist/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
-Underfull \vbox (badness 5302) has occurred while \output is active []
-
- [1.1{c:/Program Files/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.ma
-p}
+[1.1{c:/Program Files/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map
+}
 
 ]
 
@@ -1326,15 +1324,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 Class acmart Warning: \vspace should only be used to provide space above/below 
-surrounding objects on input line 146.
-
-
-Class acmart Warning: \vspace should only be used to provide space above/below 
-surrounding objects on input line 147.
-
-
-Class acmart Warning: \vspace should only be used to provide space above/below 
-surrounding objects on input line 148.
+surrounding objects on input line 145.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1342,34 +1332,49 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Class acmart Warning: \vspace should only be used to provide space above/below 
+surrounding objects on input line 150.
+
+
+Class acmart Warning: \vspace should only be used to provide space above/below 
+surrounding objects on input line 151.
+
+
+Class acmart Warning: \vspace should only be used to provide space above/below 
 surrounding objects on input line 152.
+
+
+Class acmart Warning: \vspace should only be used to provide space above/below 
+surrounding objects on input line 156.
 
 <./appendix/sigcomm25-logo.png, id=32, 470.75874pt x 107.40125pt>
 File: ./appendix/sigcomm25-logo.png Graphic file (type png)
 <use ./appendix/sigcomm25-logo.png>
-Package pdftex.def Info: ./appendix/sigcomm25-logo.png  used on input line 155.
+Package pdftex.def Info: ./appendix/sigcomm25-logo.png  used on input line 159.
 
 (pdftex.def)             Requested size: 241.14749pt x 55.01643pt.
 
-Class acmart Warning: A possible image without description on input line 158.
+Class acmart Warning: A possible image without description on input line 162.
 
 <./appendix/sigcomm24-logo.png, id=33, 185.19188pt x 185.94469pt>
 File: ./appendix/sigcomm24-logo.png Graphic file (type png)
 <use ./appendix/sigcomm24-logo.png>
-Package pdftex.def Info: ./appendix/sigcomm24-logo.png  used on input line 162.
+Package pdftex.def Info: ./appendix/sigcomm24-logo.png  used on input line 166.
 
 (pdftex.def)             Requested size: 241.14749pt x 242.13094pt.
 
-Class acmart Warning: A possible image without description on input line 165.
+Class acmart Warning: A possible image without description on input line 169.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
 
 <./appendix/sigcomm23-logo.png, id=34, 614.295pt x 670.505pt>
 File: ./appendix/sigcomm23-logo.png Graphic file (type png)
 <use ./appendix/sigcomm23-logo.png>
-Package pdftex.def Info: ./appendix/sigcomm23-logo.png  used on input line 169.
+Package pdftex.def Info: ./appendix/sigcomm23-logo.png  used on input line 173.
 
 (pdftex.def)             Requested size: 241.14749pt x 263.21472pt.
 
-Class acmart Warning: A possible image without description on input line 172.
+Class acmart Warning: A possible image without description on input line 176.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -1377,10 +1382,10 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 <./appendix/cvpr25-logo.jpg, id=36, 400.49625pt x 400.49625pt>
 File: ./appendix/cvpr25-logo.jpg Graphic file (type jpg)
 <use ./appendix/cvpr25-logo.jpg>
-Package pdftex.def Info: ./appendix/cvpr25-logo.jpg  used on input line 176.
+Package pdftex.def Info: ./appendix/cvpr25-logo.jpg  used on input line 180.
 (pdftex.def)             Requested size: 241.14749pt x 241.14903pt.
 
-Class acmart Warning: A possible image without description on input line 179.
+Class acmart Warning: A possible image without description on input line 183.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -1388,37 +1393,29 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 <./appendix/cvpr24-logo.png, id=37, 775.89874pt x 324.21124pt>
 File: ./appendix/cvpr24-logo.png Graphic file (type png)
 <use ./appendix/cvpr24-logo.png>
-Package pdftex.def Info: ./appendix/cvpr24-logo.png  used on input line 183.
+Package pdftex.def Info: ./appendix/cvpr24-logo.png  used on input line 187.
 (pdftex.def)             Requested size: 241.14749pt x 100.76169pt.
 
-Class acmart Warning: A possible image without description on input line 186.
+Class acmart Warning: A possible image without description on input line 190.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 Class acmart Warning: \vspace should only be used to provide space above/below 
-surrounding objects on input line 189.
+surrounding objects on input line 194.
 
-(./main.bbl
+(./petition.bbl
 
 Class acmart Warning: \vspace should only be used to provide space above/below 
 surrounding objects on input line 5.
 
-LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/n' will be
-(Font)              scaled to size 10.0pt on input line 54.
-LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/n' will be
-(Font)              scaled to size 8.0pt on input line 54.
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
-een already used, duplicate ignored
-<to be read again> 
-                   \scan_stop: 
-l.54         {copyright}
-                         [2.2 <../logo/mobicom25_logo.pdf> <./appendix/sigcomm2
-5-logo.png> <./appendix/sigcomm24-logo.png>]
 LaTeX Info: Redefining \tempurl on input line 61.
-)
+LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/n' will be
+(Font)              scaled to size 10.0pt on input line 64.
+LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/n' will be
+(Font)              scaled to size 8.0pt on input line 64.
+[2.2 <../logo/mobicom25_logo.pdf> <./appendix/sigcomm25-logo.png>])
 
 Class acmart Warning: Some images may lack descriptions.
 
@@ -1431,38 +1428,32 @@ Class acmart Warning: ACM reference format is mandatory
 
 Class acmart Warning: CCS concepts are mandatory for papers over two pages.
 
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
-een already used, duplicate ignored
-<to be read again> 
-                   \scan_stop: 
-l.192 \end{document}
-                     [3.3 <./appendix/cvpr24-logo.png> <./appendix/sigcomm23-lo
-go.png> <./appendix/cvpr25-logo.jpg>] (./main.aux) ) 
+[3.3 <./appendix/cvpr25-logo.jpg> <./appendix/cvpr24-logo.png> <./appendix/sigc
+omm24-logo.png> <./appendix/sigcomm23-logo.png>] (./petition.aux) ) 
 Here is how much of TeX's memory you used:
- 27568 strings out of 475071
- 489096 string characters out of 5775882
- 1056824 words of memory out of 5000000
+ 27570 strings out of 475071
+ 489157 string characters out of 5775882
+ 1057210 words of memory out of 5000000
  48041 multiletter control sequences out of 15000+600000
- 584223 words of font info for 225 fonts, out of 8000000 for 9000
+ 584060 words of font info for 224 fonts, out of 8000000 for 9000
  1302 hyphenation exceptions out of 8191
- 91i,12n,131p,1476b,694s stack positions out of 10000i,1000n,20000p,200000b,200000s
-{c:/Program Files/texlive/2
-022/texmf-dist/fonts/enc/dvips/libertine/lbtn_25tcsq.enc}{c:/Program Files/texl
-ive/2022/texmf-dist/fonts/enc/dvips/libertine/lbtn_7grukw.enc}{c:/Program Files
-/texlive/2022/texmf-dist/fonts/enc/dvips/libertine/lbtn_nh77jq.enc}{c:/Program 
-Files/texlive/2022/texmf-dist/fonts/enc/dvips/libertine/lbtn_76gpa5.enc}<c:/Pro
-gram Files/texlive/2022/texmf-dist/fonts/type1/public/libertine/LinBiolinumT.pf
-b><c:/Program Files/texlive/2022/texmf-dist/fonts/type1/public/libertine/LinBio
-linumTB.pfb><c:/Program Files/texlive/2022/texmf-dist/fonts/type1/public/libert
-ine/LinLibertineT.pfb><c:/Program Files/texlive/2022/texmf-dist/fonts/type1/pub
-lic/libertine/LinLibertineTB.pfb><c:/Program Files/texlive/2022/texmf-dist/font
-s/type1/public/libertine/LinLibertineTI.pfb><c:/Program Files/texlive/2022/texm
-f-dist/fonts/type1/public/newtx/txsys.pfb>
-Output written on main.pdf (3 pages, 913109 bytes).
+ 91i,12n,131p,1480b,697s stack positions out of 10000i,1000n,20000p,200000b,200000s
+{c:/Program 
+Files/texlive/2022/texmf-dist/fonts/enc/dvips/libertine/lbtn_25tcsq.enc}{c:/Pro
+gram Files/texlive/2022/texmf-dist/fonts/enc/dvips/libertine/lbtn_7grukw.enc}{c
+:/Program Files/texlive/2022/texmf-dist/fonts/enc/dvips/libertine/lbtn_nh77jq.e
+nc}{c:/Program Files/texlive/2022/texmf-dist/fonts/enc/dvips/libertine/lbtn_76g
+pa5.enc}<c:/Program Files/texlive/2022/texmf-dist/fonts/type1/public/libertine/
+LinBiolinumT.pfb><c:/Program Files/texlive/2022/texmf-dist/fonts/type1/public/l
+ibertine/LinBiolinumTB.pfb><c:/Program Files/texlive/2022/texmf-dist/fonts/type
+1/public/libertine/LinLibertineT.pfb><c:/Program Files/texlive/2022/texmf-dist/
+fonts/type1/public/libertine/LinLibertineTB.pfb><c:/Program Files/texlive/2022/
+texmf-dist/fonts/type1/public/libertine/LinLibertineTI.pfb><c:/Program Files/te
+xlive/2022/texmf-dist/fonts/type1/public/newtx/txsys.pfb>
+Output written on petition.pdf (3 pages, 915707 bytes).
 PDF statistics:
- 184 PDF objects out of 1000 (max. 8388607)
- 127 compressed objects within 2 object streams
- 15 named destinations out of 1000 (max. 500000)
- 59493 words of extra memory for PDF output out of 61914 (max. 10000000)
+ 190 PDF objects out of 1000 (max. 8388607)
+ 133 compressed objects within 2 object streams
+ 18 named destinations out of 1000 (max. 500000)
+ 59501 words of extra memory for PDF output out of 61914 (max. 10000000)
 
