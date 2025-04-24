@@ -8,7 +8,6 @@ All the logos and branding materials in this repo is currently unofficial, i.e.,
 ![Alt text](logo/mobicom25_logo_whitebg.png)
 
 # Acknowledgement
-The author Changhan Ge @ UT Austin sincerely appreciates the help from ChatGPT, an LLM model owned and designed by OpenAI.
 
 # Contact
 If you have any questions regarding the this unofficial branding, please reach out to Changhan Ge at chge@utexas.edu.
